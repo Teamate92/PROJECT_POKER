@@ -1,0 +1,36 @@
+.container-register {
+    display: flex;
+    justify-items: right;
+    align-items: right;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: 15%;
+    
+}
+
+.form-register{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.form-register input{
+    background: none;
+      font-size: 1.2rem;
+      border-bottom: 1px solid #e5a810;;
+
+      @media screen and (min-width: 1200px){
+        font-size: 1.5rem;
+      }
+}
+input {
+  padding: 24px 0 12px;
+  width: 100%;
+
+  @media screen and (max-width: 540px){
+    width: 75%;
+    padding: 12px 0 6px;
+  }
+}

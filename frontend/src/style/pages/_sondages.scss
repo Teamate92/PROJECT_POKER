@@ -1,0 +1,45 @@
+.poll {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10%;
+  }
+  .poll ul {
+    padding: 0;
+    width: 300px;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .poll ul li {
+    list-style: none;
+    border: 2px solid #e5a810;
+    border-radius: 3px;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .poll ul li button {
+    border: none;
+    background: transparent;
+    outline: none;  
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding: 15px;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .poll ul li span {
+    display: none;
+  }
+  .poll ul.results li button span {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  .poll ul.results li {
+    border-color: #999;
+  }
+  .pie{
+    width: 100;
+    height: 100;
+}
